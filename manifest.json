@@ -1,0 +1,18 @@
+{
+    "name": {
+        "en": "Bold",
+        "fr": "Audacieux"
+    },
+    "description": {
+        "en": "The main image is displayed in full width and takes 85% of the height. The logo, menu, slogan and buttons are displayed on top of it.",
+        "fr": "L'image principale est affichée en arrière-plan, sur toute la largeur de l'écran et sur 85% de sa hauteur. Le logo, le menu, le slogan et les boutons sont affichés par dessus."
+    },
+    "thumbnail": "thumbnail.jpg",
+    "templates": {
+        "style": "src/style.css.twig",
+        "head": "src/head.html.twig",
+        "home": "src/home.html.twig",
+        "list": "src/list.html.twig",
+        "content": "src/content.html.twig"
+    }
+}
