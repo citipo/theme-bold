@@ -8,6 +8,7 @@
         "fr": "L'image principale est affichée en arrière-plan, sur toute la largeur de l'écran et sur 85% de sa hauteur. Le logo, le menu, le slogan et les boutons sont affichés par dessus."
     },
     "defaultColors": ["0F345C", "E83A7F", "2A568E"],
+    "defaultFonts": ["Merriweather Sans", "Merriweather Sans"],
     "thumbnail": "thumbnail.jpg",
     "templates": {
         "style": "src/style.css.twig",
