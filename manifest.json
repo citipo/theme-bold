@@ -7,12 +7,17 @@
         "en": "The main image is displayed in full width and takes 85% of the height. The logo, menu, slogan and buttons are displayed on top of it.",
         "fr": "L'image principale est affichée en arrière-plan, sur toute la largeur de l'écran et sur 85% de sa hauteur. Le logo, le menu, le slogan et les boutons sont affichés par dessus."
     },
+    "defaultColors": ["0F345C", "E83A7F", "2A568E"],
     "thumbnail": "thumbnail.jpg",
     "templates": {
         "style": "src/style.css.twig",
+        "script": "src/script.js.twig",
         "head": "src/head.html.twig",
         "home": "src/home.html.twig",
         "list": "src/list.html.twig",
         "content": "src/content.html.twig"
-    }
+    },
+    "assets": [
+        "assets/home-default.jpg"
+    ]
 }
