@@ -5,9 +5,9 @@
 
     {% if posts|length > 0 %}
         {% for columnKey, column in posts|batch(3) %}
-            <div class="home-blocks-block-posts-row">
+            <div class="home-blocks-block-posts-row home-blocks-block-posts-row-{{ columnKey }}">
                 {% for itemKey, post in column %}
-                    <div class="zoom-hover home-blocks-block-posts-item-{{ columnKey * 3 + itemKey }} home-blocks-block-posts-row-{{ columnKey }}">
+                    <div class="zoom-hover home-blocks-block-posts-item-{{ columnKey * 3 + itemKey }}">
                         <div data-aos="fade-up" data-aos-duration="600">
                             <div class="home-blocks-block-posts-item box-offset">
                                 <div class="home-blocks-block-posts-item-thumbnail">
