@@ -1,4 +1,4 @@
-# Citipo "Bold" theme
+# OpenAction "Bold" theme
 
 ![Thumbnail](thumbnail.jpg)
 
